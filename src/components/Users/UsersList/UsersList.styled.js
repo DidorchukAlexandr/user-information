@@ -4,7 +4,7 @@ export const Table = styled.table`
   width: 100%;
   background-color: #fff;
   border-collapse: collapse;
-  box-shadow: 1px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 0px 10px 5px rgba(0, 0, 0, 0.4);
   border-radius: 3px;
   thead {
     background-color: #1e90ff;
