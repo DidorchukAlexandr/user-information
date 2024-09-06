@@ -24,7 +24,7 @@ const elements = items.map(({id, name, username, email, phone}) => (
     </tr>
 ))
 
-    return (
+  return (
         <Table>
          <thead>
         <tr>
@@ -37,7 +37,7 @@ const elements = items.map(({id, name, username, email, phone}) => (
        <tbody>
         {elements}
       </tbody>
-     </Table>
+      </Table>
     )
 }
 export default UsersList;
