@@ -5,7 +5,7 @@ import { GlobalStyle } from "./GlobalStyles";
 import UsersPage from "../page/UsersPage/UsersPage";
 
 
-function App() {
+const App: React.FC = () => {
   return (
   <>
     <Provider store={store}>

@@ -1,6 +1,9 @@
-export const getUsers = ({ users }) => users.items;
+import { User, RootState } from "./types";
 
-export const getFilteredUsers = ({ filter, users }) => {
+export const getUsers = (state: RootState): User[] => state.users.items;
+
+export const getFilteredUsers = (state: RootState): User[] => {
+  const { filter, users } = state;
   if (!filter) {
     return users.items;
   }

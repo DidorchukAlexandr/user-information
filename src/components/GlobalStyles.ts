@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import modernNormalize from "modern-normalize";
 import "@fontsource/alata";
 import "@fontsource/poppins";
 
@@ -17,8 +16,6 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-tap-highlight-color: transparent;
     
     }
- 
-  ${modernNormalize}
 
   code {
  font-family: 'Poppins', 'Alata', sans-serif;

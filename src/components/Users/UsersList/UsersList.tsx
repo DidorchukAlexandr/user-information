@@ -1,6 +1,19 @@
+import React from "react";
 import { Table } from "./UsersList.styled";
 
-const UsersList = ({ items }) => {
+type User = {
+  id: string;
+  name: string;
+  username: string;
+  email: string;
+  phone: string;
+}
+
+type UsersListProps = {
+  items: User[];
+}
+
+const UsersList: React.FC<UsersListProps> = ({ items }) => {
 
 const elements = items.map(({id, name, username, email, phone}) => (
           <tr key={id}>
