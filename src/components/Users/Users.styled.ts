@@ -9,7 +9,7 @@ export const Input = styled.input`
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-family: Poppins;
-  background-color: fffff;
+  background-color: fff;
   box-shadow: 2px 4px 9px 0px #a68dae47;
   padding: 15px 20px;
   height: 50px;
