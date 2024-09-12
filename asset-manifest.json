@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/user-information/static/css/main.251cdda2.css",
-    "main.js": "/user-information/static/js/main.63f889c9.js",
+    "main.js": "/user-information/static/js/main.20b92f29.js",
     "static/media/alata-latin-400-normal.woff": "/user-information/static/media/alata-latin-400-normal.ff16b710737e5f9c2133.woff",
     "static/media/alata-latin-400-normal.woff2": "/user-information/static/media/alata-latin-400-normal.28a20ce242e456e07940.woff2",
     "static/media/alata-latin-ext-400-normal.woff2": "/user-information/static/media/alata-latin-ext-400-normal.88daabe4c5d34274228a.woff2",
@@ -14,10 +14,10 @@
     "static/media/poppins-latin-ext-400-normal.woff2": "/user-information/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
     "index.html": "/user-information/index.html",
     "main.251cdda2.css.map": "/user-information/static/css/main.251cdda2.css.map",
-    "main.63f889c9.js.map": "/user-information/static/js/main.63f889c9.js.map"
+    "main.20b92f29.js.map": "/user-information/static/js/main.20b92f29.js.map"
   },
   "entrypoints": [
     "static/css/main.251cdda2.css",
-    "static/js/main.63f889c9.js"
+    "static/js/main.20b92f29.js"
   ]
 }
