@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { fetchUsers } from "./users-operations";
 
 interface User {
-  id: string;
+  id: number;
   name: string;
   username: string;
   email: string;
