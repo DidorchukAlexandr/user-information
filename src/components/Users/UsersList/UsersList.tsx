@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "./UsersList.styled";
 
 type User = {
-  id: string;
+  id: number;
   name: string;
   username: string;
   email: string;
